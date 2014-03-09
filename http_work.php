@@ -20,8 +20,8 @@
 				echo '<br />';
 			else
 				echo $buf[$i];
-			/*if($buf[$i]=="\r"&&$buf[$i+1]=="\n"&&$buf[$i+2]=="\r"&&$buf[$i+3]=="\n")
-				break;*/
+			if($buf[$i]=="\r"&&$buf[$i+1]=="\n"&&$buf[$i+2]=="\r"&&$buf[$i+3]=="\n")
+				break;
 		}
 	?>
 	</body>
