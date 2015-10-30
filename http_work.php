@@ -5,6 +5,7 @@
 	</head>
 	<body>
 	<?php
+		//It creates a socket connection and send and recieve data.
 		$str='www.google.com';
 		$service_port = getservbyname('www', 'tcp');
 		$address = gethostbyname($str);
